@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <title>Ubermelon Order Form</title>
+</head>
+<body>
+    <h1>Order!</h1>
+    <h3>Prices</h3>
+    <table style="width:20%">
+      <tr>
+        <th>Melon Name</th>
+        <th>Price per lb</th> 
+      </tr>
+      <tr>
+        <td>Watermelon</td>
+        <td>$1.59</td> 
+      </tr>
+      <tr>
+        <td>Honeydew</td>
+        <td>$0.99</td> 
+      </tr>
+       <tr>
+        <td>Canteloupe</td>
+        <td>$1.29</td> 
+      </tr>
+        <tr>
+        <td>Crenshaw</td>
+        <td>$2.19</td> 
+      </tr>
+       <tr>
+        <td>Canary</td>
+        <td>$11.99</td> 
+      </tr>
+
+    </table>
+    <form>
+         <p>Place your orders here! You know you want to.</p>
+         First Name <input> <br>
+         Last Name <input> <br>
+         Melon Type <select name="melontype">
+                    <option value="Watermelon">Watermelon</option>
+                    <option value="Honeydew">Honeydew</option>
+                    <option value="Canteloupe">Canteloupe</option>
+                    <option value="Crenshaw">Crenshaw</option>
+                    <option value="Canary">Canary</option>
+                </select><br>
+        Quantity <input> <br>
+        Delivery Time <input type="radio" name="time" value="AM">AM
+        <input type="radio" name="time" value="PM">PM
+        <input type="radio" name="time" value="Wat">Wat <br>
+        Returning Customer <input type="radio" name="returning" value="Yes">Yes
+        <input type="radio" name="returning" value="No">No <br>
+
+        For statistical Purposes <input type="checkbox" name="stats" value="Dog">Dog
+                                
+    </form>
+</body>
+</html>
